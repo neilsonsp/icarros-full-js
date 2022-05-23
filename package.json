@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/neilsonsp/icarros-full-js#readme",
   "dependencies": {
-    "@babel/runtime": "^7.18.0"
+    "@babel/runtime": "^7.18.0",
+    "axios": "^0.27.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.0",

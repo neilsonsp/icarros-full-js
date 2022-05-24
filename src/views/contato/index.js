@@ -39,13 +39,8 @@ let Contato = {
                 name: userName,
                 phone: userPhone
             })
-            .then( res => {
-                loader.innerHTML = ``
-            })
             .catch( e => console.error(e) )
-            .finally( () => {
-                loader.innerHTML = ``
-            });
+            .finally( () => loader.innerHTML = ``);
         })
     }
 };

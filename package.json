@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
+    "sass": "sass --watch src/assets/sass/style.scss:src/css/style.css",
     "build": "webpack --config webpack.prod.js",
     "serve": "live-server dist --verbose"
   },

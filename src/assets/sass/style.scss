@@ -1,0 +1,16 @@
+@use 'variables';
+
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: variables.$bgColor;
+    padding: 2rem;
+}
+.logo--nav{
+    width: 300px;;
+}
